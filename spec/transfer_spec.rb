@@ -6,6 +6,7 @@ describe 'Transfer' do
   let(:transfer) { Transfer.new(amanda, avi, 50) }
   let(:bad_transfer) { Transfer.new(amanda, avi, 4000) }
 
+
   describe 'Transfer' do
     describe 'initialize' do
       it "can initialize a Transfer" do
